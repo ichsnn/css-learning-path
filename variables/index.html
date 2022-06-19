@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>CSS Variables</h2>
+        <h3>Hello World</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolor! Id natus incidunt quae iure,
+            cupiditate, nemo maiores repellendus perspiciatis saepe odio quia! Quam doloremque vero delectus optio
+            obcaecati a!</p>
+        <button id="btn-red">Red</button>
+        <button id="btn-green">Green</button>
+        <button id="btn-blue">Blue</button>
+        <button id="btn-default">Default</button>
+    </div>
+
+    <script>
+        const btnRed = document.getElementById('btn-red');
+        const btnGreen = document.getElementById('btn-green');
+        const btnBlue = document.getElementById('btn-blue');
+        const btnDefault = document.getElementById('btn-default');
+
+        const style = document.documentElement.style;
+
+        btnRed.addEventListener('click', () => {
+            style.setProperty('--primary-color', 'var(--red)')
+        })
+        btnGreen.addEventListener('click', () => {
+            style.setProperty('--primary-color', 'var(--green)')
+        })
+        btnBlue.addEventListener('click', () => {
+            style.setProperty('--primary-color', 'var(--blue)')
+        })
+        btnDefault.addEventListener('click', () => {
+            // style.removeProperty('--primary-clor')
+            document.documentElement.removeAttribute('style')
+        })
+
+
+    </script>
+</body>
+
+</html>
