@@ -40,15 +40,6 @@ table#table-nilai #mahasiswa td, table#table-nilai #header th {
     border: 1px solid #ddd;
 }
 
-#mahasiswa #total-nilai {
+#mahasiswa #total-nilai, #mahasiswa #rata-rata {
     font-weight: bold;
-}
-
-#rata-rata {
-    font-weight: bold;
-}
-
-#mahasiswa #total-nilai td:first-child, #mahasiswa #rata-rata td:first-child {
-    text-align: right;
-    padding: 0 10px;
 }
