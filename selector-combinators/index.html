@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Selector Combinators</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Selector Combinator</h1>
+    <div id="descendant">
+        <div>
+            <p>Descendant selector (space)</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolor, consequatur accusantium sequi doloremque qui necessitatibus quas possimus vitae alias ducimus aspernatur aperiam natus magnam aut eaque autem architecto voluptates.</p>
+        <p>descendant</p>
+    </div>
+    <p>descendant</p>
+    <p>descendant</p>
+    <hr>
+    <div id="child">
+        <div>
+            <p>Child selector (>)</p>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ex aliquam cumque odit incidunt, quo reiciendis. Cum fugit consequatur enim ipsa libero temporibus exercitationem neque facilis unde perferendis! Aliquid, repudiandae.</p>
+        <p>child</p>
+    </div>
+    <p>child</p>
+    <p>child</p>
+    <hr>
+    <div id="adjacent">
+        <div>
+            <p>Adjacent sibling selector (+)</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam exercitationem necessitatibus provident quo blanditiis, fugiat excepturi consequatur placeat incidunt ab adipisci temporibus eius sint dicta reiciendis est minima. Provident.</p>
+    </div>
+    <p>Adjacent</p>
+    <p>Adjacent</p>
+    <hr>
+    <div id="general">
+        <div>
+            <p>General selector (~)</p>
+        </div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quia, quibusdam eius odit maxime doloribus tempora hic alias dolores dolorem, laborum ex ad, rerum debitis unde id atque nobis esse?
+    </div>
+    <p>General</p>
+    <p>General</p>
+    <p>General</p>
+</body>
+</html>
