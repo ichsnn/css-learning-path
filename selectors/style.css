@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body {
+    padding: 20px;
+}
+
+h1 {
+    line-height: 1.25em;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table#table-nilai tr {
+    text-align: center;
+}
+
+#table-nilai tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+#table-nilai tr:hover {
+    background-color: #dddddd;
+}
+
+#table-nilai th {
+    background-color: royalblue;
+    color: white;
+}
+
+table#table-nilai #mahasiswa td, table#table-nilai #header th {
+    border: 1px solid #ddd;
+}
+
+#mahasiswa #total-nilai {
+    font-weight: bold;
+}
+
+#rata-rata {
+    font-weight: bold;
+}
+
+#mahasiswa #total-nilai td:first-child, #mahasiswa #rata-rata td:first-child {
+    text-align: right;
+    padding: 0 10px;
+}
