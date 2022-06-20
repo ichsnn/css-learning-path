@@ -1,0 +1,55 @@
+:root {
+    --primary-color: rgb(71, 71, 255);
+    --danger-color: crimson;
+    --succsess-color: rgb(25, 195, 25);
+    --black--color: rgb(65, 65, 65);
+}
+
+@mixin header-1 {
+    font-size: 72px;
+    color: var(--black--color);
+    font-family: sans-serif;
+}
+
+@mixin btn {
+    --base-color: black;
+    padding: 6px 12px;
+    background-color: var(--base-color);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+@mixin btn-primary {
+    @include btn();
+    --base-color: var(--primary-color);
+}
+
+@mixin btn-success {
+    @include btn();
+    --base-color: var(--succsess-color);
+}
+
+@mixin btn-danger {
+    @include btn();
+    --base-color: var(--danger-color);
+}
+
+h1 {
+    @include header-1();
+}
+
+.btn-login {
+    @include btn-primary();
+}
+
+.btn-leave {
+    @include btn-danger();
+}
+
+.btn-success {
+    @include btn-success();
+}
