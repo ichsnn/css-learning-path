@@ -39,7 +39,3 @@ table#table-nilai tr {
 table#table-nilai #mahasiswa td, table#table-nilai #header th {
     border: 1px solid #ddd;
 }
-
-#mahasiswa #total-nilai, #mahasiswa #rata-rata {
-    font-weight: bold;
-}
