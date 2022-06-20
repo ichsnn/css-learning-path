@@ -1,0 +1,20 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mixins": "sass mixins/style.scss mixins/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichsnn/css-learning-path.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichsnn/css-learning-path/issues"
+  },
+  "homepage": "https://github.com/ichsnn/css-learning-path#readme"
+}
