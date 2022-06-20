@@ -1,0 +1,47 @@
+a:link {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #ff00ff;
+}
+
+a:active {
+    color: #0000ff;
+}
+
+div {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+div:hover {
+    background-color: blue;
+    color: white;
+}
+
+div + p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover + p {
+    display: block;
+}
+
+ul li:first-child {
+    color: blue;
+}
+
+ul li:hover {
+    color: red;
+}
+
+q:lang(no) {
+    quotes: "~" "~";
+}
